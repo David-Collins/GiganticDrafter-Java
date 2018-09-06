@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" xmlns="http://javafx.com/javafx">
+   <children>
+      <VBox alignment="CENTER" prefWidth="500.0" spacing="25.0" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="25.0">
+         <children>
+            <Label text="Instructions" underline="true">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label text="Enter a username and click join, you will see a list of currently active servers or you can make your own by clicking new server and entering a name for your server. Once inside a server, join either team 1 or team 2. You will then go through ban and pick phases where each opponent will ban certain heroes and then pick from the heroes not banned. This will continue until both teams have drafted a team of 5 heroes after which the draft will be complete." wrapText="true" />
+            <Label text="Info" underline="true">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label text="This application is a drafting tool for the game Gigantic develped by Motiga Games. This application is a drafting tool that is used for teams looking to draft heroes for competitive matches. It was developed by David Collins." wrapText="true" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

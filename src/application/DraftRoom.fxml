@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml">
+   <children>
+      <HBox alignment="TOP_CENTER" prefHeight="750.0" prefWidth="1050.0" spacing="50.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <VBox fx:id="team1Box" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <Text fx:id="team1Seat" fill="#2395bf" strokeType="OUTSIDE" strokeWidth="0.0" text="Team 1">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="team1" mnemonicParsing="false" text="Join" />
+                  <VBox fx:id="team1Picks" alignment="TOP_CENTER" prefHeight="771.0" prefWidth="100.0" spacing="25.0" />
+               </children>
+            </VBox>
+            <VBox fx:id="heroGrid" alignment="TOP_CENTER" prefHeight="700.0" prefWidth="700.0" spacing="25.0">
+               <children>
+                  <Text fx:id="currentPhase" strokeType="OUTSIDE" strokeWidth="0.0" text="Team 1 Ban">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Text>
+                  <Label text="Bans" />
+                  <HBox fx:id="Bans" alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="50.0" />
+               </children>
+            </VBox>
+            <VBox fx:id="team2Box" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <Text fx:id="team2Seat" fill="#2395bf" strokeType="OUTSIDE" strokeWidth="0.0" text="Team 2">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="team2" mnemonicParsing="false" text="Join" />
+                  <VBox fx:id="team2Picks" alignment="TOP_CENTER" prefHeight="851.0" prefWidth="100.0" spacing="25.0" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
